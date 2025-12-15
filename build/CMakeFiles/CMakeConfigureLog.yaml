@@ -1,0 +1,2447 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeMinGWFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mingw32-make.exe"
+    candidate_directories:
+      - "C:/Environment/mingw64/bin/"
+      - "C:/Environment/usr/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/Program Files (x86)/Bandizip/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Code tool/cmake/bin/"
+      - "D:/Code tool/Git/bin/"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Program Files/Microsoft VS Code/bin/"
+      - "/REGISTRY-NOTFOUND/bin/"
+      - "c:/MinGW/bin/"
+      - "/MinGW/bin/"
+      - "/REGISTRY-NOTFOUND/MinGW/bin/"
+    searched_directories:
+      - "C:/Environment/mingw64/bin/mingw32-make.exe.com"
+    found: "C:/Environment/mingw64/bin/mingw32-make.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\usr\\bin"
+        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS"
+        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
+        - "D:\\Program Files (x86)\\Bandizip\\"
+        - "C:/Program Files/dotnet/"
+        - "D:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
+        - "C:/Environment/mingw64\\\\bin"
+        - "D:/Windows Kits/10/Windows Performance Toolkit/"
+        - "D:/Code tool/cmake/bin"
+        - "D:/Code tool/Git/bin"
+        - "D:\\Code tool\\Git\\mingw64\\libexec\\git-core"
+        - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps"
+        - "D:\\Program Files\\Microsoft VS Code\\bin"
+        - "D:\\Code tool\\cmake\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/"
+    found: "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\usr\\bin"
+        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS"
+        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
+        - "D:\\Program Files (x86)\\Bandizip\\"
+        - "C:/Program Files/dotnet/"
+        - "D:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
+        - "C:/Environment/mingw64\\\\bin"
+        - "D:/Windows Kits/10/Windows Performance Toolkit/"
+        - "D:/Code tool/cmake/bin"
+        - "D:/Code tool/Git/bin"
+        - "D:\\Code tool\\Git\\mingw64\\libexec\\git-core"
+        - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps"
+        - "D:\\Program Files\\Microsoft VS Code\\bin"
+        - "D:\\Code tool\\cmake\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Environment/mingw64/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        D:/Code/cmake_planning1/build/CMakeFiles/4.2.0-rc4/CompilerIdC/a.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "C:/Environment/mingw64/bin/"
+      - "C:/Environment/usr/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/Program Files (x86)/Bandizip/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Code tool/cmake/bin/"
+      - "D:/Code tool/Git/bin/"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Program Files/Microsoft VS Code/bin/"
+    searched_directories:
+      - "C:/Environment/mingw64/bin/ar.com"
+    found: "C:/Environment/mingw64/bin/ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\usr\\bin"
+        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS"
+        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
+        - "D:\\Program Files (x86)\\Bandizip\\"
+        - "C:/Program Files/dotnet/"
+        - "D:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
+        - "C:/Environment/mingw64\\\\bin"
+        - "D:/Windows Kits/10/Windows Performance Toolkit/"
+        - "D:/Code tool/cmake/bin"
+        - "D:/Code tool/Git/bin"
+        - "D:\\Code tool\\Git\\mingw64\\libexec\\git-core"
+        - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps"
+        - "D:\\Program Files\\Microsoft VS Code\\bin"
+        - "D:\\Code tool\\cmake\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "C:/Environment/mingw64/bin/"
+      - "C:/Environment/usr/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/Program Files (x86)/Bandizip/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Code tool/cmake/bin/"
+      - "D:/Code tool/Git/bin/"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Program Files/Microsoft VS Code/bin/"
+    searched_directories:
+      - "C:/Environment/mingw64/bin/ranlib.com"
+    found: "C:/Environment/mingw64/bin/ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\usr\\bin"
+        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS"
+        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
+        - "D:\\Program Files (x86)\\Bandizip\\"
+        - "C:/Program Files/dotnet/"
+        - "D:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
+        - "C:/Environment/mingw64\\\\bin"
+        - "D:/Windows Kits/10/Windows Performance Toolkit/"
+        - "D:/Code tool/cmake/bin"
+        - "D:/Code tool/Git/bin"
+        - "D:\\Code tool\\Git\\mingw64\\libexec\\git-core"
+        - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps"
+        - "D:\\Program Files\\Microsoft VS Code\\bin"
+        - "D:\\Code tool\\cmake\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "C:/Environment/mingw64/bin/"
+      - "C:/Environment/usr/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/Program Files (x86)/Bandizip/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Code tool/cmake/bin/"
+      - "D:/Code tool/Git/bin/"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Program Files/Microsoft VS Code/bin/"
+    searched_directories:
+      - "C:/Environment/mingw64/bin/strip.com"
+    found: "C:/Environment/mingw64/bin/strip.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\usr\\bin"
+        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS"
+        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
+        - "D:\\Program Files (x86)\\Bandizip\\"
+        - "C:/Program Files/dotnet/"
+        - "D:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
+        - "C:/Environment/mingw64\\\\bin"
+        - "D:/Windows Kits/10/Windows Performance Toolkit/"
+        - "D:/Code tool/cmake/bin"
+        - "D:/Code tool/Git/bin"
+        - "D:\\Code tool\\Git\\mingw64\\libexec\\git-core"
+        - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps"
+        - "D:\\Program Files\\Microsoft VS Code\\bin"
+        - "D:\\Code tool\\cmake\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "C:/Environment/mingw64/bin/"
+      - "C:/Environment/usr/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/Program Files (x86)/Bandizip/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Code tool/cmake/bin/"
+      - "D:/Code tool/Git/bin/"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Program Files/Microsoft VS Code/bin/"
+    searched_directories:
+      - "C:/Environment/mingw64/bin/ld.com"
+    found: "C:/Environment/mingw64/bin/ld.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\usr\\bin"
+        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS"
+        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
+        - "D:\\Program Files (x86)\\Bandizip\\"
+        - "C:/Program Files/dotnet/"
+        - "D:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
+        - "C:/Environment/mingw64\\\\bin"
+        - "D:/Windows Kits/10/Windows Performance Toolkit/"
+        - "D:/Code tool/cmake/bin"
+        - "D:/Code tool/Git/bin"
+        - "D:\\Code tool\\Git\\mingw64\\libexec\\git-core"
+        - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps"
+        - "D:\\Program Files\\Microsoft VS Code\\bin"
+        - "D:\\Code tool\\cmake\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "C:/Environment/mingw64/bin/"
+      - "C:/Environment/usr/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/Program Files (x86)/Bandizip/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Code tool/cmake/bin/"
+      - "D:/Code tool/Git/bin/"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Program Files/Microsoft VS Code/bin/"
+    searched_directories:
+      - "C:/Environment/mingw64/bin/nm.com"
+    found: "C:/Environment/mingw64/bin/nm.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\usr\\bin"
+        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS"
+        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
+        - "D:\\Program Files (x86)\\Bandizip\\"
+        - "C:/Program Files/dotnet/"
+        - "D:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
+        - "C:/Environment/mingw64\\\\bin"
+        - "D:/Windows Kits/10/Windows Performance Toolkit/"
+        - "D:/Code tool/cmake/bin"
+        - "D:/Code tool/Git/bin"
+        - "D:\\Code tool\\Git\\mingw64\\libexec\\git-core"
+        - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps"
+        - "D:\\Program Files\\Microsoft VS Code\\bin"
+        - "D:\\Code tool\\cmake\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "C:/Environment/mingw64/bin/"
+      - "C:/Environment/usr/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/Program Files (x86)/Bandizip/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Code tool/cmake/bin/"
+      - "D:/Code tool/Git/bin/"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Program Files/Microsoft VS Code/bin/"
+    searched_directories:
+      - "C:/Environment/mingw64/bin/objdump.com"
+    found: "C:/Environment/mingw64/bin/objdump.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\usr\\bin"
+        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS"
+        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
+        - "D:\\Program Files (x86)\\Bandizip\\"
+        - "C:/Program Files/dotnet/"
+        - "D:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
+        - "C:/Environment/mingw64\\\\bin"
+        - "D:/Windows Kits/10/Windows Performance Toolkit/"
+        - "D:/Code tool/cmake/bin"
+        - "D:/Code tool/Git/bin"
+        - "D:\\Code tool\\Git\\mingw64\\libexec\\git-core"
+        - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps"
+        - "D:\\Program Files\\Microsoft VS Code\\bin"
+        - "D:\\Code tool\\cmake\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "C:/Environment/mingw64/bin/"
+      - "C:/Environment/usr/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/Program Files (x86)/Bandizip/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Code tool/cmake/bin/"
+      - "D:/Code tool/Git/bin/"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Program Files/Microsoft VS Code/bin/"
+    searched_directories:
+      - "C:/Environment/mingw64/bin/objcopy.com"
+    found: "C:/Environment/mingw64/bin/objcopy.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\usr\\bin"
+        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS"
+        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
+        - "D:\\Program Files (x86)\\Bandizip\\"
+        - "C:/Program Files/dotnet/"
+        - "D:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
+        - "C:/Environment/mingw64\\\\bin"
+        - "D:/Windows Kits/10/Windows Performance Toolkit/"
+        - "D:/Code tool/cmake/bin"
+        - "D:/Code tool/Git/bin"
+        - "D:\\Code tool\\Git\\mingw64\\libexec\\git-core"
+        - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps"
+        - "D:\\Program Files\\Microsoft VS Code\\bin"
+        - "D:\\Code tool\\cmake\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "C:/Environment/mingw64/bin/"
+      - "C:/Environment/usr/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/Program Files (x86)/Bandizip/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Code tool/cmake/bin/"
+      - "D:/Code tool/Git/bin/"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Program Files/Microsoft VS Code/bin/"
+    searched_directories:
+      - "C:/Environment/mingw64/bin/readelf.com"
+    found: "C:/Environment/mingw64/bin/readelf.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\usr\\bin"
+        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS"
+        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
+        - "D:\\Program Files (x86)\\Bandizip\\"
+        - "C:/Program Files/dotnet/"
+        - "D:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
+        - "C:/Environment/mingw64\\\\bin"
+        - "D:/Windows Kits/10/Windows Performance Toolkit/"
+        - "D:/Code tool/cmake/bin"
+        - "D:/Code tool/Git/bin"
+        - "D:\\Code tool\\Git\\mingw64\\libexec\\git-core"
+        - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps"
+        - "D:\\Program Files\\Microsoft VS Code\\bin"
+        - "D:\\Code tool\\cmake\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "C:/Environment/mingw64/bin/"
+      - "C:/Environment/usr/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/Program Files (x86)/Bandizip/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Code tool/cmake/bin/"
+      - "D:/Code tool/Git/bin/"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Program Files/Microsoft VS Code/bin/"
+    searched_directories:
+      - "C:/Environment/mingw64/bin/dlltool.com"
+    found: "C:/Environment/mingw64/bin/dlltool.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\usr\\bin"
+        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS"
+        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
+        - "D:\\Program Files (x86)\\Bandizip\\"
+        - "C:/Program Files/dotnet/"
+        - "D:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
+        - "C:/Environment/mingw64\\\\bin"
+        - "D:/Windows Kits/10/Windows Performance Toolkit/"
+        - "D:/Code tool/cmake/bin"
+        - "D:/Code tool/Git/bin"
+        - "D:\\Code tool\\Git\\mingw64\\libexec\\git-core"
+        - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps"
+        - "D:\\Program Files\\Microsoft VS Code\\bin"
+        - "D:\\Code tool\\cmake\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "C:/Environment/mingw64/bin/"
+      - "C:/Environment/usr/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/Program Files (x86)/Bandizip/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Code tool/cmake/bin/"
+      - "D:/Code tool/Git/bin/"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Program Files/Microsoft VS Code/bin/"
+    searched_directories:
+      - "C:/Environment/mingw64/bin/addr2line.com"
+    found: "C:/Environment/mingw64/bin/addr2line.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\usr\\bin"
+        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS"
+        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
+        - "D:\\Program Files (x86)\\Bandizip\\"
+        - "C:/Program Files/dotnet/"
+        - "D:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
+        - "C:/Environment/mingw64\\\\bin"
+        - "D:/Windows Kits/10/Windows Performance Toolkit/"
+        - "D:/Code tool/cmake/bin"
+        - "D:/Code tool/Git/bin"
+        - "D:\\Code tool\\Git\\mingw64\\libexec\\git-core"
+        - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps"
+        - "D:\\Program Files\\Microsoft VS Code\\bin"
+        - "D:\\Code tool\\cmake\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "C:/Environment/mingw64/bin/"
+      - "C:/Environment/usr/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/Program Files (x86)/Bandizip/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Code tool/cmake/bin/"
+      - "D:/Code tool/Git/bin/"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Program Files/Microsoft VS Code/bin/"
+    searched_directories:
+      - "C:/Environment/mingw64/bin/tapi.com"
+      - "C:/Environment/mingw64/bin/tapi.exe"
+      - "C:/Environment/mingw64/bin/tapi"
+      - "C:/Environment/usr/bin/tapi.com"
+      - "C:/Environment/usr/bin/tapi.exe"
+      - "C:/Environment/usr/bin/tapi"
+      - "C:/Windows/System32/tapi.com"
+      - "C:/Windows/System32/tapi.exe"
+      - "C:/Windows/System32/tapi"
+      - "C:/Windows/tapi.com"
+      - "C:/Windows/tapi.exe"
+      - "C:/Windows/tapi"
+      - "C:/Windows/System32/wbem/tapi.com"
+      - "C:/Windows/System32/wbem/tapi.exe"
+      - "C:/Windows/System32/wbem/tapi"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi"
+      - "C:/Windows/System32/OpenSSH/tapi.com"
+      - "C:/Windows/System32/OpenSSH/tapi.exe"
+      - "C:/Windows/System32/OpenSSH/tapi"
+      - "D:/Program Files (x86)/Bandizip/tapi.com"
+      - "D:/Program Files (x86)/Bandizip/tapi.exe"
+      - "D:/Program Files (x86)/Bandizip/tapi"
+      - "C:/Program Files/dotnet/tapi.com"
+      - "C:/Program Files/dotnet/tapi.exe"
+      - "C:/Program Files/dotnet/tapi"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/tapi.com"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/tapi.exe"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/tapi"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/tapi.com"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/tapi.exe"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/tapi"
+      - "D:/Code tool/cmake/bin/tapi.com"
+      - "D:/Code tool/cmake/bin/tapi.exe"
+      - "D:/Code tool/cmake/bin/tapi"
+      - "D:/Code tool/Git/bin/tapi.com"
+      - "D:/Code tool/Git/bin/tapi.exe"
+      - "D:/Code tool/Git/bin/tapi"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/tapi.com"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/tapi.exe"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/tapi"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/tapi.com"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/tapi.exe"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/tapi"
+      - "D:/Program Files/Microsoft VS Code/bin/tapi.com"
+      - "D:/Program Files/Microsoft VS Code/bin/tapi.exe"
+      - "D:/Program Files/Microsoft VS Code/bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\usr\\bin"
+        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS"
+        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
+        - "D:\\Program Files (x86)\\Bandizip\\"
+        - "C:/Program Files/dotnet/"
+        - "D:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
+        - "C:/Environment/mingw64\\\\bin"
+        - "D:/Windows Kits/10/Windows Performance Toolkit/"
+        - "D:/Code tool/cmake/bin"
+        - "D:/Code tool/Git/bin"
+        - "D:\\Code tool\\Git\\mingw64\\libexec\\git-core"
+        - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps"
+        - "D:\\Program Files\\Microsoft VS Code\\bin"
+        - "D:\\Code tool\\cmake\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-15.2"
+      - "gcc-ar-15"
+      - "gcc-ar15"
+      - "gcc-ar"
+    candidate_directories:
+      - "C:/Environment/mingw64/bin/"
+      - "C:/Environment/usr/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/Program Files (x86)/Bandizip/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Code tool/cmake/bin/"
+      - "D:/Code tool/Git/bin/"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Program Files/Microsoft VS Code/bin/"
+    searched_directories:
+      - "C:/Environment/mingw64/bin/gcc-ar-15.2.com"
+      - "C:/Environment/mingw64/bin/gcc-ar-15.2.exe"
+      - "C:/Environment/mingw64/bin/gcc-ar-15.2"
+      - "C:/Environment/usr/bin/gcc-ar-15.2.com"
+      - "C:/Environment/usr/bin/gcc-ar-15.2.exe"
+      - "C:/Environment/usr/bin/gcc-ar-15.2"
+      - "C:/Windows/System32/gcc-ar-15.2.com"
+      - "C:/Windows/System32/gcc-ar-15.2.exe"
+      - "C:/Windows/System32/gcc-ar-15.2"
+      - "C:/Windows/gcc-ar-15.2.com"
+      - "C:/Windows/gcc-ar-15.2.exe"
+      - "C:/Windows/gcc-ar-15.2"
+      - "C:/Windows/System32/wbem/gcc-ar-15.2.com"
+      - "C:/Windows/System32/wbem/gcc-ar-15.2.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-15.2"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.2.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.2.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.2"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.2.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.2.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.2"
+      - "D:/Program Files (x86)/Bandizip/gcc-ar-15.2.com"
+      - "D:/Program Files (x86)/Bandizip/gcc-ar-15.2.exe"
+      - "D:/Program Files (x86)/Bandizip/gcc-ar-15.2"
+      - "C:/Program Files/dotnet/gcc-ar-15.2.com"
+      - "C:/Program Files/dotnet/gcc-ar-15.2.exe"
+      - "C:/Program Files/dotnet/gcc-ar-15.2"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ar-15.2.com"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ar-15.2.exe"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ar-15.2"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15.2.com"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15.2.exe"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15.2"
+      - "D:/Code tool/cmake/bin/gcc-ar-15.2.com"
+      - "D:/Code tool/cmake/bin/gcc-ar-15.2.exe"
+      - "D:/Code tool/cmake/bin/gcc-ar-15.2"
+      - "D:/Code tool/Git/bin/gcc-ar-15.2.com"
+      - "D:/Code tool/Git/bin/gcc-ar-15.2.exe"
+      - "D:/Code tool/Git/bin/gcc-ar-15.2"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/gcc-ar-15.2.com"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/gcc-ar-15.2.exe"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/gcc-ar-15.2"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.2.com"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.2.exe"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.2"
+      - "D:/Program Files/Microsoft VS Code/bin/gcc-ar-15.2.com"
+      - "D:/Program Files/Microsoft VS Code/bin/gcc-ar-15.2.exe"
+      - "D:/Program Files/Microsoft VS Code/bin/gcc-ar-15.2"
+      - "C:/Environment/mingw64/bin/gcc-ar-15.com"
+      - "C:/Environment/mingw64/bin/gcc-ar-15.exe"
+      - "C:/Environment/mingw64/bin/gcc-ar-15"
+      - "C:/Environment/usr/bin/gcc-ar-15.com"
+      - "C:/Environment/usr/bin/gcc-ar-15.exe"
+      - "C:/Environment/usr/bin/gcc-ar-15"
+      - "C:/Windows/System32/gcc-ar-15.com"
+      - "C:/Windows/System32/gcc-ar-15.exe"
+      - "C:/Windows/System32/gcc-ar-15"
+      - "C:/Windows/gcc-ar-15.com"
+      - "C:/Windows/gcc-ar-15.exe"
+      - "C:/Windows/gcc-ar-15"
+      - "C:/Windows/System32/wbem/gcc-ar-15.com"
+      - "C:/Windows/System32/wbem/gcc-ar-15.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15"
+      - "D:/Program Files (x86)/Bandizip/gcc-ar-15.com"
+      - "D:/Program Files (x86)/Bandizip/gcc-ar-15.exe"
+      - "D:/Program Files (x86)/Bandizip/gcc-ar-15"
+      - "C:/Program Files/dotnet/gcc-ar-15.com"
+      - "C:/Program Files/dotnet/gcc-ar-15.exe"
+      - "C:/Program Files/dotnet/gcc-ar-15"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ar-15.com"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ar-15.exe"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ar-15"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15.com"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15.exe"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15"
+      - "D:/Code tool/cmake/bin/gcc-ar-15.com"
+      - "D:/Code tool/cmake/bin/gcc-ar-15.exe"
+      - "D:/Code tool/cmake/bin/gcc-ar-15"
+      - "D:/Code tool/Git/bin/gcc-ar-15.com"
+      - "D:/Code tool/Git/bin/gcc-ar-15.exe"
+      - "D:/Code tool/Git/bin/gcc-ar-15"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/gcc-ar-15.com"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/gcc-ar-15.exe"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/gcc-ar-15"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.com"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.exe"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/gcc-ar-15"
+      - "D:/Program Files/Microsoft VS Code/bin/gcc-ar-15.com"
+      - "D:/Program Files/Microsoft VS Code/bin/gcc-ar-15.exe"
+      - "D:/Program Files/Microsoft VS Code/bin/gcc-ar-15"
+      - "C:/Environment/mingw64/bin/gcc-ar15.com"
+      - "C:/Environment/mingw64/bin/gcc-ar15.exe"
+      - "C:/Environment/mingw64/bin/gcc-ar15"
+      - "C:/Environment/usr/bin/gcc-ar15.com"
+      - "C:/Environment/usr/bin/gcc-ar15.exe"
+      - "C:/Environment/usr/bin/gcc-ar15"
+      - "C:/Windows/System32/gcc-ar15.com"
+      - "C:/Windows/System32/gcc-ar15.exe"
+      - "C:/Windows/System32/gcc-ar15"
+      - "C:/Windows/gcc-ar15.com"
+      - "C:/Windows/gcc-ar15.exe"
+      - "C:/Windows/gcc-ar15"
+      - "C:/Windows/System32/wbem/gcc-ar15.com"
+      - "C:/Windows/System32/wbem/gcc-ar15.exe"
+      - "C:/Windows/System32/wbem/gcc-ar15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar15"
+      - "C:/Windows/System32/OpenSSH/gcc-ar15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar15"
+      - "D:/Program Files (x86)/Bandizip/gcc-ar15.com"
+      - "D:/Program Files (x86)/Bandizip/gcc-ar15.exe"
+      - "D:/Program Files (x86)/Bandizip/gcc-ar15"
+      - "C:/Program Files/dotnet/gcc-ar15.com"
+      - "C:/Program Files/dotnet/gcc-ar15.exe"
+      - "C:/Program Files/dotnet/gcc-ar15"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ar15.com"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ar15.exe"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ar15"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ar15.com"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ar15.exe"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ar15"
+      - "D:/Code tool/cmake/bin/gcc-ar15.com"
+      - "D:/Code tool/cmake/bin/gcc-ar15.exe"
+      - "D:/Code tool/cmake/bin/gcc-ar15"
+      - "D:/Code tool/Git/bin/gcc-ar15.com"
+      - "D:/Code tool/Git/bin/gcc-ar15.exe"
+      - "D:/Code tool/Git/bin/gcc-ar15"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/gcc-ar15.com"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/gcc-ar15.exe"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/gcc-ar15"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/gcc-ar15.com"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/gcc-ar15.exe"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/gcc-ar15"
+      - "D:/Program Files/Microsoft VS Code/bin/gcc-ar15.com"
+      - "D:/Program Files/Microsoft VS Code/bin/gcc-ar15.exe"
+      - "D:/Program Files/Microsoft VS Code/bin/gcc-ar15"
+      - "C:/Environment/mingw64/bin/gcc-ar.com"
+    found: "C:/Environment/mingw64/bin/gcc-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\usr\\bin"
+        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS"
+        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
+        - "D:\\Program Files (x86)\\Bandizip\\"
+        - "C:/Program Files/dotnet/"
+        - "D:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
+        - "C:/Environment/mingw64\\\\bin"
+        - "D:/Windows Kits/10/Windows Performance Toolkit/"
+        - "D:/Code tool/cmake/bin"
+        - "D:/Code tool/Git/bin"
+        - "D:\\Code tool\\Git\\mingw64\\libexec\\git-core"
+        - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps"
+        - "D:\\Program Files\\Microsoft VS Code\\bin"
+        - "D:\\Code tool\\cmake\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-15.2"
+      - "gcc-ranlib-15"
+      - "gcc-ranlib15"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "C:/Environment/mingw64/bin/"
+      - "C:/Environment/usr/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/Program Files (x86)/Bandizip/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Code tool/cmake/bin/"
+      - "D:/Code tool/Git/bin/"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Program Files/Microsoft VS Code/bin/"
+    searched_directories:
+      - "C:/Environment/mingw64/bin/gcc-ranlib-15.2.com"
+      - "C:/Environment/mingw64/bin/gcc-ranlib-15.2.exe"
+      - "C:/Environment/mingw64/bin/gcc-ranlib-15.2"
+      - "C:/Environment/usr/bin/gcc-ranlib-15.2.com"
+      - "C:/Environment/usr/bin/gcc-ranlib-15.2.exe"
+      - "C:/Environment/usr/bin/gcc-ranlib-15.2"
+      - "C:/Windows/System32/gcc-ranlib-15.2.com"
+      - "C:/Windows/System32/gcc-ranlib-15.2.exe"
+      - "C:/Windows/System32/gcc-ranlib-15.2"
+      - "C:/Windows/gcc-ranlib-15.2.com"
+      - "C:/Windows/gcc-ranlib-15.2.exe"
+      - "C:/Windows/gcc-ranlib-15.2"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.2.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.2.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.2"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.2.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.2.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.2"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.2.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.2.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.2"
+      - "D:/Program Files (x86)/Bandizip/gcc-ranlib-15.2.com"
+      - "D:/Program Files (x86)/Bandizip/gcc-ranlib-15.2.exe"
+      - "D:/Program Files (x86)/Bandizip/gcc-ranlib-15.2"
+      - "C:/Program Files/dotnet/gcc-ranlib-15.2.com"
+      - "C:/Program Files/dotnet/gcc-ranlib-15.2.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib-15.2"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ranlib-15.2.com"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ranlib-15.2.exe"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ranlib-15.2"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15.2.com"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15.2.exe"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15.2"
+      - "D:/Code tool/cmake/bin/gcc-ranlib-15.2.com"
+      - "D:/Code tool/cmake/bin/gcc-ranlib-15.2.exe"
+      - "D:/Code tool/cmake/bin/gcc-ranlib-15.2"
+      - "D:/Code tool/Git/bin/gcc-ranlib-15.2.com"
+      - "D:/Code tool/Git/bin/gcc-ranlib-15.2.exe"
+      - "D:/Code tool/Git/bin/gcc-ranlib-15.2"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/gcc-ranlib-15.2.com"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/gcc-ranlib-15.2.exe"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/gcc-ranlib-15.2"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.2.com"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.2.exe"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.2"
+      - "D:/Program Files/Microsoft VS Code/bin/gcc-ranlib-15.2.com"
+      - "D:/Program Files/Microsoft VS Code/bin/gcc-ranlib-15.2.exe"
+      - "D:/Program Files/Microsoft VS Code/bin/gcc-ranlib-15.2"
+      - "C:/Environment/mingw64/bin/gcc-ranlib-15.com"
+      - "C:/Environment/mingw64/bin/gcc-ranlib-15.exe"
+      - "C:/Environment/mingw64/bin/gcc-ranlib-15"
+      - "C:/Environment/usr/bin/gcc-ranlib-15.com"
+      - "C:/Environment/usr/bin/gcc-ranlib-15.exe"
+      - "C:/Environment/usr/bin/gcc-ranlib-15"
+      - "C:/Windows/System32/gcc-ranlib-15.com"
+      - "C:/Windows/System32/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/gcc-ranlib-15"
+      - "C:/Windows/gcc-ranlib-15.com"
+      - "C:/Windows/gcc-ranlib-15.exe"
+      - "C:/Windows/gcc-ranlib-15"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15"
+      - "D:/Program Files (x86)/Bandizip/gcc-ranlib-15.com"
+      - "D:/Program Files (x86)/Bandizip/gcc-ranlib-15.exe"
+      - "D:/Program Files (x86)/Bandizip/gcc-ranlib-15"
+      - "C:/Program Files/dotnet/gcc-ranlib-15.com"
+      - "C:/Program Files/dotnet/gcc-ranlib-15.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib-15"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ranlib-15.com"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ranlib-15.exe"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ranlib-15"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15.com"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15.exe"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15"
+      - "D:/Code tool/cmake/bin/gcc-ranlib-15.com"
+      - "D:/Code tool/cmake/bin/gcc-ranlib-15.exe"
+      - "D:/Code tool/cmake/bin/gcc-ranlib-15"
+      - "D:/Code tool/Git/bin/gcc-ranlib-15.com"
+      - "D:/Code tool/Git/bin/gcc-ranlib-15.exe"
+      - "D:/Code tool/Git/bin/gcc-ranlib-15"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/gcc-ranlib-15.com"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/gcc-ranlib-15.exe"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/gcc-ranlib-15"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.com"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.exe"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15"
+      - "D:/Program Files/Microsoft VS Code/bin/gcc-ranlib-15.com"
+      - "D:/Program Files/Microsoft VS Code/bin/gcc-ranlib-15.exe"
+      - "D:/Program Files/Microsoft VS Code/bin/gcc-ranlib-15"
+      - "C:/Environment/mingw64/bin/gcc-ranlib15.com"
+      - "C:/Environment/mingw64/bin/gcc-ranlib15.exe"
+      - "C:/Environment/mingw64/bin/gcc-ranlib15"
+      - "C:/Environment/usr/bin/gcc-ranlib15.com"
+      - "C:/Environment/usr/bin/gcc-ranlib15.exe"
+      - "C:/Environment/usr/bin/gcc-ranlib15"
+      - "C:/Windows/System32/gcc-ranlib15.com"
+      - "C:/Windows/System32/gcc-ranlib15.exe"
+      - "C:/Windows/System32/gcc-ranlib15"
+      - "C:/Windows/gcc-ranlib15.com"
+      - "C:/Windows/gcc-ranlib15.exe"
+      - "C:/Windows/gcc-ranlib15"
+      - "C:/Windows/System32/wbem/gcc-ranlib15.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib15.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib15"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib15"
+      - "D:/Program Files (x86)/Bandizip/gcc-ranlib15.com"
+      - "D:/Program Files (x86)/Bandizip/gcc-ranlib15.exe"
+      - "D:/Program Files (x86)/Bandizip/gcc-ranlib15"
+      - "C:/Program Files/dotnet/gcc-ranlib15.com"
+      - "C:/Program Files/dotnet/gcc-ranlib15.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib15"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ranlib15.com"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ranlib15.exe"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ranlib15"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib15.com"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib15.exe"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib15"
+      - "D:/Code tool/cmake/bin/gcc-ranlib15.com"
+      - "D:/Code tool/cmake/bin/gcc-ranlib15.exe"
+      - "D:/Code tool/cmake/bin/gcc-ranlib15"
+      - "D:/Code tool/Git/bin/gcc-ranlib15.com"
+      - "D:/Code tool/Git/bin/gcc-ranlib15.exe"
+      - "D:/Code tool/Git/bin/gcc-ranlib15"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/gcc-ranlib15.com"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/gcc-ranlib15.exe"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/gcc-ranlib15"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/gcc-ranlib15.com"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/gcc-ranlib15.exe"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/gcc-ranlib15"
+      - "D:/Program Files/Microsoft VS Code/bin/gcc-ranlib15.com"
+      - "D:/Program Files/Microsoft VS Code/bin/gcc-ranlib15.exe"
+      - "D:/Program Files/Microsoft VS Code/bin/gcc-ranlib15"
+      - "C:/Environment/mingw64/bin/gcc-ranlib.com"
+    found: "C:/Environment/mingw64/bin/gcc-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\usr\\bin"
+        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS"
+        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
+        - "D:\\Program Files (x86)\\Bandizip\\"
+        - "C:/Program Files/dotnet/"
+        - "D:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
+        - "C:/Environment/mingw64\\\\bin"
+        - "D:/Windows Kits/10/Windows Performance Toolkit/"
+        - "D:/Code tool/cmake/bin"
+        - "D:/Code tool/Git/bin"
+        - "D:\\Code tool\\Git\\mingw64\\libexec\\git-core"
+        - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps"
+        - "D:\\Program Files\\Microsoft VS Code\\bin"
+        - "D:\\Code tool\\cmake\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/"
+    found: "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\usr\\bin"
+        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS"
+        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
+        - "D:\\Program Files (x86)\\Bandizip\\"
+        - "C:/Program Files/dotnet/"
+        - "D:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
+        - "C:/Environment/mingw64\\\\bin"
+        - "D:/Windows Kits/10/Windows Performance Toolkit/"
+        - "D:/Code tool/cmake/bin"
+        - "D:/Code tool/Git/bin"
+        - "D:\\Code tool\\Git\\mingw64\\libexec\\git-core"
+        - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps"
+        - "D:\\Program Files\\Microsoft VS Code\\bin"
+        - "D:\\Code tool\\cmake\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Environment/mingw64/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        D:/Code/cmake_planning1/build/CMakeFiles/4.2.0-rc4/CompilerIdCXX/a.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-15.2"
+      - "gcc-ar-15"
+      - "gcc-ar15"
+      - "gcc-ar"
+    candidate_directories:
+      - "C:/Environment/mingw64/bin/"
+      - "C:/Environment/usr/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/Program Files (x86)/Bandizip/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Code tool/cmake/bin/"
+      - "D:/Code tool/Git/bin/"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Program Files/Microsoft VS Code/bin/"
+    searched_directories:
+      - "C:/Environment/mingw64/bin/gcc-ar-15.2.com"
+      - "C:/Environment/mingw64/bin/gcc-ar-15.2.exe"
+      - "C:/Environment/mingw64/bin/gcc-ar-15.2"
+      - "C:/Environment/usr/bin/gcc-ar-15.2.com"
+      - "C:/Environment/usr/bin/gcc-ar-15.2.exe"
+      - "C:/Environment/usr/bin/gcc-ar-15.2"
+      - "C:/Windows/System32/gcc-ar-15.2.com"
+      - "C:/Windows/System32/gcc-ar-15.2.exe"
+      - "C:/Windows/System32/gcc-ar-15.2"
+      - "C:/Windows/gcc-ar-15.2.com"
+      - "C:/Windows/gcc-ar-15.2.exe"
+      - "C:/Windows/gcc-ar-15.2"
+      - "C:/Windows/System32/wbem/gcc-ar-15.2.com"
+      - "C:/Windows/System32/wbem/gcc-ar-15.2.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-15.2"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.2.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.2.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.2"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.2.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.2.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.2"
+      - "D:/Program Files (x86)/Bandizip/gcc-ar-15.2.com"
+      - "D:/Program Files (x86)/Bandizip/gcc-ar-15.2.exe"
+      - "D:/Program Files (x86)/Bandizip/gcc-ar-15.2"
+      - "C:/Program Files/dotnet/gcc-ar-15.2.com"
+      - "C:/Program Files/dotnet/gcc-ar-15.2.exe"
+      - "C:/Program Files/dotnet/gcc-ar-15.2"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ar-15.2.com"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ar-15.2.exe"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ar-15.2"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15.2.com"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15.2.exe"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15.2"
+      - "D:/Code tool/cmake/bin/gcc-ar-15.2.com"
+      - "D:/Code tool/cmake/bin/gcc-ar-15.2.exe"
+      - "D:/Code tool/cmake/bin/gcc-ar-15.2"
+      - "D:/Code tool/Git/bin/gcc-ar-15.2.com"
+      - "D:/Code tool/Git/bin/gcc-ar-15.2.exe"
+      - "D:/Code tool/Git/bin/gcc-ar-15.2"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/gcc-ar-15.2.com"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/gcc-ar-15.2.exe"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/gcc-ar-15.2"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.2.com"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.2.exe"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.2"
+      - "D:/Program Files/Microsoft VS Code/bin/gcc-ar-15.2.com"
+      - "D:/Program Files/Microsoft VS Code/bin/gcc-ar-15.2.exe"
+      - "D:/Program Files/Microsoft VS Code/bin/gcc-ar-15.2"
+      - "C:/Environment/mingw64/bin/gcc-ar-15.com"
+      - "C:/Environment/mingw64/bin/gcc-ar-15.exe"
+      - "C:/Environment/mingw64/bin/gcc-ar-15"
+      - "C:/Environment/usr/bin/gcc-ar-15.com"
+      - "C:/Environment/usr/bin/gcc-ar-15.exe"
+      - "C:/Environment/usr/bin/gcc-ar-15"
+      - "C:/Windows/System32/gcc-ar-15.com"
+      - "C:/Windows/System32/gcc-ar-15.exe"
+      - "C:/Windows/System32/gcc-ar-15"
+      - "C:/Windows/gcc-ar-15.com"
+      - "C:/Windows/gcc-ar-15.exe"
+      - "C:/Windows/gcc-ar-15"
+      - "C:/Windows/System32/wbem/gcc-ar-15.com"
+      - "C:/Windows/System32/wbem/gcc-ar-15.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15"
+      - "D:/Program Files (x86)/Bandizip/gcc-ar-15.com"
+      - "D:/Program Files (x86)/Bandizip/gcc-ar-15.exe"
+      - "D:/Program Files (x86)/Bandizip/gcc-ar-15"
+      - "C:/Program Files/dotnet/gcc-ar-15.com"
+      - "C:/Program Files/dotnet/gcc-ar-15.exe"
+      - "C:/Program Files/dotnet/gcc-ar-15"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ar-15.com"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ar-15.exe"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ar-15"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15.com"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15.exe"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15"
+      - "D:/Code tool/cmake/bin/gcc-ar-15.com"
+      - "D:/Code tool/cmake/bin/gcc-ar-15.exe"
+      - "D:/Code tool/cmake/bin/gcc-ar-15"
+      - "D:/Code tool/Git/bin/gcc-ar-15.com"
+      - "D:/Code tool/Git/bin/gcc-ar-15.exe"
+      - "D:/Code tool/Git/bin/gcc-ar-15"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/gcc-ar-15.com"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/gcc-ar-15.exe"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/gcc-ar-15"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.com"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.exe"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/gcc-ar-15"
+      - "D:/Program Files/Microsoft VS Code/bin/gcc-ar-15.com"
+      - "D:/Program Files/Microsoft VS Code/bin/gcc-ar-15.exe"
+      - "D:/Program Files/Microsoft VS Code/bin/gcc-ar-15"
+      - "C:/Environment/mingw64/bin/gcc-ar15.com"
+      - "C:/Environment/mingw64/bin/gcc-ar15.exe"
+      - "C:/Environment/mingw64/bin/gcc-ar15"
+      - "C:/Environment/usr/bin/gcc-ar15.com"
+      - "C:/Environment/usr/bin/gcc-ar15.exe"
+      - "C:/Environment/usr/bin/gcc-ar15"
+      - "C:/Windows/System32/gcc-ar15.com"
+      - "C:/Windows/System32/gcc-ar15.exe"
+      - "C:/Windows/System32/gcc-ar15"
+      - "C:/Windows/gcc-ar15.com"
+      - "C:/Windows/gcc-ar15.exe"
+      - "C:/Windows/gcc-ar15"
+      - "C:/Windows/System32/wbem/gcc-ar15.com"
+      - "C:/Windows/System32/wbem/gcc-ar15.exe"
+      - "C:/Windows/System32/wbem/gcc-ar15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar15"
+      - "C:/Windows/System32/OpenSSH/gcc-ar15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar15"
+      - "D:/Program Files (x86)/Bandizip/gcc-ar15.com"
+      - "D:/Program Files (x86)/Bandizip/gcc-ar15.exe"
+      - "D:/Program Files (x86)/Bandizip/gcc-ar15"
+      - "C:/Program Files/dotnet/gcc-ar15.com"
+      - "C:/Program Files/dotnet/gcc-ar15.exe"
+      - "C:/Program Files/dotnet/gcc-ar15"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ar15.com"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ar15.exe"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ar15"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ar15.com"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ar15.exe"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ar15"
+      - "D:/Code tool/cmake/bin/gcc-ar15.com"
+      - "D:/Code tool/cmake/bin/gcc-ar15.exe"
+      - "D:/Code tool/cmake/bin/gcc-ar15"
+      - "D:/Code tool/Git/bin/gcc-ar15.com"
+      - "D:/Code tool/Git/bin/gcc-ar15.exe"
+      - "D:/Code tool/Git/bin/gcc-ar15"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/gcc-ar15.com"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/gcc-ar15.exe"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/gcc-ar15"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/gcc-ar15.com"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/gcc-ar15.exe"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/gcc-ar15"
+      - "D:/Program Files/Microsoft VS Code/bin/gcc-ar15.com"
+      - "D:/Program Files/Microsoft VS Code/bin/gcc-ar15.exe"
+      - "D:/Program Files/Microsoft VS Code/bin/gcc-ar15"
+      - "C:/Environment/mingw64/bin/gcc-ar.com"
+    found: "C:/Environment/mingw64/bin/gcc-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\usr\\bin"
+        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS"
+        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
+        - "D:\\Program Files (x86)\\Bandizip\\"
+        - "C:/Program Files/dotnet/"
+        - "D:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
+        - "C:/Environment/mingw64\\\\bin"
+        - "D:/Windows Kits/10/Windows Performance Toolkit/"
+        - "D:/Code tool/cmake/bin"
+        - "D:/Code tool/Git/bin"
+        - "D:\\Code tool\\Git\\mingw64\\libexec\\git-core"
+        - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps"
+        - "D:\\Program Files\\Microsoft VS Code\\bin"
+        - "D:\\Code tool\\cmake\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-15.2"
+      - "gcc-ranlib-15"
+      - "gcc-ranlib15"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "C:/Environment/mingw64/bin/"
+      - "C:/Environment/usr/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/Program Files (x86)/Bandizip/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Code tool/cmake/bin/"
+      - "D:/Code tool/Git/bin/"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Program Files/Microsoft VS Code/bin/"
+    searched_directories:
+      - "C:/Environment/mingw64/bin/gcc-ranlib-15.2.com"
+      - "C:/Environment/mingw64/bin/gcc-ranlib-15.2.exe"
+      - "C:/Environment/mingw64/bin/gcc-ranlib-15.2"
+      - "C:/Environment/usr/bin/gcc-ranlib-15.2.com"
+      - "C:/Environment/usr/bin/gcc-ranlib-15.2.exe"
+      - "C:/Environment/usr/bin/gcc-ranlib-15.2"
+      - "C:/Windows/System32/gcc-ranlib-15.2.com"
+      - "C:/Windows/System32/gcc-ranlib-15.2.exe"
+      - "C:/Windows/System32/gcc-ranlib-15.2"
+      - "C:/Windows/gcc-ranlib-15.2.com"
+      - "C:/Windows/gcc-ranlib-15.2.exe"
+      - "C:/Windows/gcc-ranlib-15.2"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.2.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.2.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.2"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.2.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.2.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.2"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.2.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.2.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.2"
+      - "D:/Program Files (x86)/Bandizip/gcc-ranlib-15.2.com"
+      - "D:/Program Files (x86)/Bandizip/gcc-ranlib-15.2.exe"
+      - "D:/Program Files (x86)/Bandizip/gcc-ranlib-15.2"
+      - "C:/Program Files/dotnet/gcc-ranlib-15.2.com"
+      - "C:/Program Files/dotnet/gcc-ranlib-15.2.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib-15.2"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ranlib-15.2.com"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ranlib-15.2.exe"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ranlib-15.2"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15.2.com"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15.2.exe"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15.2"
+      - "D:/Code tool/cmake/bin/gcc-ranlib-15.2.com"
+      - "D:/Code tool/cmake/bin/gcc-ranlib-15.2.exe"
+      - "D:/Code tool/cmake/bin/gcc-ranlib-15.2"
+      - "D:/Code tool/Git/bin/gcc-ranlib-15.2.com"
+      - "D:/Code tool/Git/bin/gcc-ranlib-15.2.exe"
+      - "D:/Code tool/Git/bin/gcc-ranlib-15.2"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/gcc-ranlib-15.2.com"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/gcc-ranlib-15.2.exe"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/gcc-ranlib-15.2"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.2.com"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.2.exe"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.2"
+      - "D:/Program Files/Microsoft VS Code/bin/gcc-ranlib-15.2.com"
+      - "D:/Program Files/Microsoft VS Code/bin/gcc-ranlib-15.2.exe"
+      - "D:/Program Files/Microsoft VS Code/bin/gcc-ranlib-15.2"
+      - "C:/Environment/mingw64/bin/gcc-ranlib-15.com"
+      - "C:/Environment/mingw64/bin/gcc-ranlib-15.exe"
+      - "C:/Environment/mingw64/bin/gcc-ranlib-15"
+      - "C:/Environment/usr/bin/gcc-ranlib-15.com"
+      - "C:/Environment/usr/bin/gcc-ranlib-15.exe"
+      - "C:/Environment/usr/bin/gcc-ranlib-15"
+      - "C:/Windows/System32/gcc-ranlib-15.com"
+      - "C:/Windows/System32/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/gcc-ranlib-15"
+      - "C:/Windows/gcc-ranlib-15.com"
+      - "C:/Windows/gcc-ranlib-15.exe"
+      - "C:/Windows/gcc-ranlib-15"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15"
+      - "D:/Program Files (x86)/Bandizip/gcc-ranlib-15.com"
+      - "D:/Program Files (x86)/Bandizip/gcc-ranlib-15.exe"
+      - "D:/Program Files (x86)/Bandizip/gcc-ranlib-15"
+      - "C:/Program Files/dotnet/gcc-ranlib-15.com"
+      - "C:/Program Files/dotnet/gcc-ranlib-15.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib-15"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ranlib-15.com"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ranlib-15.exe"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ranlib-15"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15.com"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15.exe"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15"
+      - "D:/Code tool/cmake/bin/gcc-ranlib-15.com"
+      - "D:/Code tool/cmake/bin/gcc-ranlib-15.exe"
+      - "D:/Code tool/cmake/bin/gcc-ranlib-15"
+      - "D:/Code tool/Git/bin/gcc-ranlib-15.com"
+      - "D:/Code tool/Git/bin/gcc-ranlib-15.exe"
+      - "D:/Code tool/Git/bin/gcc-ranlib-15"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/gcc-ranlib-15.com"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/gcc-ranlib-15.exe"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/gcc-ranlib-15"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.com"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.exe"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15"
+      - "D:/Program Files/Microsoft VS Code/bin/gcc-ranlib-15.com"
+      - "D:/Program Files/Microsoft VS Code/bin/gcc-ranlib-15.exe"
+      - "D:/Program Files/Microsoft VS Code/bin/gcc-ranlib-15"
+      - "C:/Environment/mingw64/bin/gcc-ranlib15.com"
+      - "C:/Environment/mingw64/bin/gcc-ranlib15.exe"
+      - "C:/Environment/mingw64/bin/gcc-ranlib15"
+      - "C:/Environment/usr/bin/gcc-ranlib15.com"
+      - "C:/Environment/usr/bin/gcc-ranlib15.exe"
+      - "C:/Environment/usr/bin/gcc-ranlib15"
+      - "C:/Windows/System32/gcc-ranlib15.com"
+      - "C:/Windows/System32/gcc-ranlib15.exe"
+      - "C:/Windows/System32/gcc-ranlib15"
+      - "C:/Windows/gcc-ranlib15.com"
+      - "C:/Windows/gcc-ranlib15.exe"
+      - "C:/Windows/gcc-ranlib15"
+      - "C:/Windows/System32/wbem/gcc-ranlib15.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib15.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib15"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib15"
+      - "D:/Program Files (x86)/Bandizip/gcc-ranlib15.com"
+      - "D:/Program Files (x86)/Bandizip/gcc-ranlib15.exe"
+      - "D:/Program Files (x86)/Bandizip/gcc-ranlib15"
+      - "C:/Program Files/dotnet/gcc-ranlib15.com"
+      - "C:/Program Files/dotnet/gcc-ranlib15.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib15"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ranlib15.com"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ranlib15.exe"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ranlib15"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib15.com"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib15.exe"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib15"
+      - "D:/Code tool/cmake/bin/gcc-ranlib15.com"
+      - "D:/Code tool/cmake/bin/gcc-ranlib15.exe"
+      - "D:/Code tool/cmake/bin/gcc-ranlib15"
+      - "D:/Code tool/Git/bin/gcc-ranlib15.com"
+      - "D:/Code tool/Git/bin/gcc-ranlib15.exe"
+      - "D:/Code tool/Git/bin/gcc-ranlib15"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/gcc-ranlib15.com"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/gcc-ranlib15.exe"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/gcc-ranlib15"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/gcc-ranlib15.com"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/gcc-ranlib15.exe"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/gcc-ranlib15"
+      - "D:/Program Files/Microsoft VS Code/bin/gcc-ranlib15.com"
+      - "D:/Program Files/Microsoft VS Code/bin/gcc-ranlib15.exe"
+      - "D:/Program Files/Microsoft VS Code/bin/gcc-ranlib15"
+      - "C:/Environment/mingw64/bin/gcc-ranlib.com"
+    found: "C:/Environment/mingw64/bin/gcc-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\usr\\bin"
+        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS"
+        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
+        - "D:\\Program Files (x86)\\Bandizip\\"
+        - "C:/Program Files/dotnet/"
+        - "D:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
+        - "C:/Environment/mingw64\\\\bin"
+        - "D:/Windows Kits/10/Windows Performance Toolkit/"
+        - "D:/Code tool/cmake/bin"
+        - "D:/Code tool/Git/bin"
+        - "D:\\Code tool\\Git\\mingw64\\libexec\\git-core"
+        - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps"
+        - "D:\\Program Files\\Microsoft VS Code\\bin"
+        - "D:\\Code tool\\cmake\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/Platform/Windows-GNU.cmake:167 (enable_language)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/Platform/Windows-GNU-C.cmake:2 (__windows_compiler_gnu)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "windres"
+      - "windres"
+    candidate_directories:
+      - "C:/Environment/mingw64/bin/"
+      - "C:/Environment/usr/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/Program Files (x86)/Bandizip/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Code tool/cmake/bin/"
+      - "D:/Code tool/Git/bin/"
+      - "D:/Code tool/Git/mingw64/libexec/git-core/"
+      - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Program Files/Microsoft VS Code/bin/"
+      - "D:/Code tool/Git/mingw64/bin/"
+      - "D:/Code tool/Git/mingw64/sbin/"
+      - "D:/Code tool/Git/mingw64/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "D:/Code tool/cmake/bin/"
+      - "D:/Code tool/cmake/sbin/"
+      - "D:/Code tool/cmake/"
+      - "C:/Program Files (x86)/Project/bin/"
+      - "C:/Program Files (x86)/Project/sbin/"
+      - "C:/Program Files (x86)/Project/"
+    searched_directories:
+      - "C:/Environment/mingw64/bin/windres.com"
+    found: "C:/Environment/mingw64/bin/windres.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\mingw64\\bin"
+        - "C:\\Environment\\usr\\bin"
+        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS"
+        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
+        - "D:\\Program Files (x86)\\Bandizip\\"
+        - "C:/Program Files/dotnet/"
+        - "D:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
+        - "C:/Environment/mingw64\\\\bin"
+        - "D:/Windows Kits/10/Windows Performance Toolkit/"
+        - "D:/Code tool/cmake/bin"
+        - "D:/Code tool/Git/bin"
+        - "D:\\Code tool\\Git\\mingw64\\libexec\\git-core"
+        - "C:/Users/cyberluv/AppData/Local/Microsoft/WindowsApps"
+        - "D:\\Program Files\\Microsoft VS Code\\bin"
+        - "D:\\Code tool\\cmake\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Project"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "D:/Code tool/Git/mingw64"
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/Code tool/cmake"
+        - "C:/Program Files (x86)/Project"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Code/cmake_planning1/build/CMakeFiles/CMakeScratch/TryCompile-jhezja"
+      binary: "D:/Code/cmake_planning1/build/CMakeFiles/CMakeScratch/TryCompile-jhezja"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Code/cmake_planning1/build/CMakeFiles/CMakeScratch/TryCompile-jhezja'
+        
+        Run Build Command(s): "D:/Code tool/cmake/bin/cmake.exe" -E env VERBOSE=1 C:/Environment/mingw64/bin/mingw32-make.exe -f Makefile cmTC_8e5b3/fast
+        C:/Environment/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_8e5b3.dir\\build.make CMakeFiles/cmTC_8e5b3.dir/build
+        mingw32-make[1]: Entering directory 'D:/Code/cmake_planning1/build/CMakeFiles/CMakeScratch/TryCompile-jhezja'
+        Building C object CMakeFiles/cmTC_8e5b3.dir/CMakeCCompilerABI.c.obj
+        C:\\Environment\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_8e5b3.dir\\CMakeCCompilerABI.c.obj -c "D:\\Code tool\\cmake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+        Using built-in specs.
+        COLLECT_GCC=C:\\Environment\\mingw64\\bin\\gcc.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../../../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=win32 --enable-libstdcxx-threads=yes --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-win32-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/ld.exe --with-boot-ldflags='-pipe -fno-ident -L/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib  -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc'
+        Thread model: win32
+        Supported LTO compression algorithms: zlib
+        gcc version 15.2.0 (x86_64-win32-seh-rev0, Built by MinGW-Builds project) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_8e5b3.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_8e5b3.dir\\'
+         C:/Environment/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1.exe -quiet -v -iprefix C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -U_REENTRANT D:\\Code tool\\cmake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_8e5b3.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=core2 -march=nocona -version -o C:\\Users\\cyberluv\\AppData\\Local\\Temp\\ccgZKvtG.s
+        GNU C23 (x86_64-win32-seh-rev0, Built by MinGW-Builds project) version 15.2.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 15.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.27-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/Environment/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include"
+        ignoring nonexistent directory "C:/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64D:/a/_temp/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include"
+        ignoring duplicate directory "C:/Environment/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed"
+        ignoring duplicate directory "C:/Environment/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "C:/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include
+         C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed
+         C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: 095b29ed3549f595ba8c614f295895ef
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_8e5b3.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_8e5b3.dir\\'
+         C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_8e5b3.dir\\CMakeCCompilerABI.c.obj C:\\Users\\cyberluv\\AppData\\Local\\Temp\\ccgZKvtG.s
+        GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45
+        COMPILER_PATH=C:/Environment/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;C:/Environment/mingw64/bin/../libexec/gcc/;C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/Environment/mingw64/bin/../lib/gcc/;C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_8e5b3.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_8e5b3.dir\\CMakeCCompilerABI.c.'
+        Linking C executable cmTC_8e5b3.exe
+        "D:\\Code tool\\cmake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_8e5b3.dir\\link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=C:\\Environment\\mingw64\\bin\\gcc.exe
+        COLLECT_LTO_WRAPPER=C:/Environment/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../../../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=win32 --enable-libstdcxx-threads=yes --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-win32-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/ld.exe --with-boot-ldflags='-pipe -fno-ident -L/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib  -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc'
+        Thread model: win32
+        Supported LTO compression algorithms: zlib
+        gcc version 15.2.0 (x86_64-win32-seh-rev0, Built by MinGW-Builds project) 
+        COMPILER_PATH=C:/Environment/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;C:/Environment/mingw64/bin/../libexec/gcc/;C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/Environment/mingw64/bin/../lib/gcc/;C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8e5b3.exe' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_8e5b3.'
+         C:/Environment/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/Environment/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/Environment/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\cyberluv\\AppData\\Local\\Temp\\cc0eomTS.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_8e5b3.exe C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/Environment/mingw64/bin/../lib/gcc -LC:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_8e5b3.dir/objects.a --no-whole-archive --out-implib libcmTC_8e5b3.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        collect2 version 15.2.0
+        C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/Environment/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/Environment/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\cyberluv\\AppData\\Local\\Temp\\cc0eomTS.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_8e5b3.exe C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/Environment/mingw64/bin/../lib/gcc -LC:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_8e5b3.dir/objects.a --no-whole-archive --out-implib libcmTC_8e5b3.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        GNU ld (GNU Binutils) 2.45
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8e5b3.exe' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_8e5b3.'
+        "D:\\Code tool\\cmake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_8e5b3.dir/objects.a
+        C:\\Environment\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_8e5b3.dir/objects.a @CMakeFiles\\cmTC_8e5b3.dir\\objects1.rsp
+        C:\\Environment\\mingw64\\bin\\gcc.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_8e5b3.dir/objects.a -Wl,--no-whole-archive -o cmTC_8e5b3.exe -Wl,--out-implib,libcmTC_8e5b3.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'D:/Code/cmake_planning1/build/CMakeFiles/CMakeScratch/TryCompile-jhezja'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include]
+          add: [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+          add: [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include] ==> [C:/Environment/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include]
+        collapse include dir [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed] ==> [C:/Environment/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+        collapse include dir [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include] ==> [C:/Environment/mingw64/x86_64-w64-mingw32/include]
+        implicit include dirs: [C:/Environment/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include;C:/Environment/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed;C:/Environment/mingw64/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'D:/Code/cmake_planning1/build/CMakeFiles/CMakeScratch/TryCompile-jhezja']
+        ignore line: []
+        ignore line: [Run Build Command(s): "D:/Code tool/cmake/bin/cmake.exe" -E env VERBOSE=1 C:/Environment/mingw64/bin/mingw32-make.exe -f Makefile cmTC_8e5b3/fast]
+        ignore line: [C:/Environment/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_8e5b3.dir\\build.make CMakeFiles/cmTC_8e5b3.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'D:/Code/cmake_planning1/build/CMakeFiles/CMakeScratch/TryCompile-jhezja']
+        ignore line: [Building C object CMakeFiles/cmTC_8e5b3.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:\\Environment\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_8e5b3.dir\\CMakeCCompilerABI.c.obj -c "D:\\Code tool\\cmake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\Environment\\mingw64\\bin\\gcc.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../../../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=win32 --enable-libstdcxx-threads=yes --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-win32-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/ld.exe --with-boot-ldflags='-pipe -fno-ident -L/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib  -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc']
+        ignore line: [Thread model: win32]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.2.0 (x86_64-win32-seh-rev0  Built by MinGW-Builds project) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_8e5b3.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_8e5b3.dir\\']
+        ignore line: [ C:/Environment/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1.exe -quiet -v -iprefix C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -U_REENTRANT D:\\Code tool\\cmake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_8e5b3.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=core2 -march=nocona -version -o C:\\Users\\cyberluv\\AppData\\Local\\Temp\\ccgZKvtG.s]
+        ignore line: [GNU C23 (x86_64-win32-seh-rev0  Built by MinGW-Builds project) version 15.2.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "C:/Environment/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include"]
+        ignore line: [ignoring nonexistent directory "C:/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64D:/a/_temp/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "C:/Environment/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "C:/Environment/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "C:/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include]
+        ignore line: [ C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+        ignore line: [ C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 095b29ed3549f595ba8c614f295895ef]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_8e5b3.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_8e5b3.dir\\']
+        ignore line: [ C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_8e5b3.dir\\CMakeCCompilerABI.c.obj C:\\Users\\cyberluv\\AppData\\Local\\Temp\\ccgZKvtG.s]
+        ignore line: [GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45]
+        ignore line: [COMPILER_PATH=C:/Environment/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [C:/Environment/mingw64/bin/../libexec/gcc/]
+        ignore line: [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [C:/Environment/mingw64/bin/../lib/gcc/]
+        ignore line: [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
+        ignore line: [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_8e5b3.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_8e5b3.dir\\CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_8e5b3.exe]
+        ignore line: ["D:\\Code tool\\cmake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_8e5b3.dir\\link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\Environment\\mingw64\\bin\\gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/Environment/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../../../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=win32 --enable-libstdcxx-threads=yes --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-win32-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/ld.exe --with-boot-ldflags='-pipe -fno-ident -L/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib  -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc']
+        ignore line: [Thread model: win32]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.2.0 (x86_64-win32-seh-rev0  Built by MinGW-Builds project) ]
+        ignore line: [COMPILER_PATH=C:/Environment/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [C:/Environment/mingw64/bin/../libexec/gcc/]
+        ignore line: [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [C:/Environment/mingw64/bin/../lib/gcc/]
+        ignore line: [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
+        ignore line: [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8e5b3.exe' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_8e5b3.']
+        link line: [ C:/Environment/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/Environment/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/Environment/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\cyberluv\\AppData\\Local\\Temp\\cc0eomTS.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_8e5b3.exe C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/Environment/mingw64/bin/../lib/gcc -LC:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_8e5b3.dir/objects.a --no-whole-archive --out-implib libcmTC_8e5b3.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+          arg [C:/Environment/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [C:/Environment/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=C:/Environment/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\cyberluv\\AppData\\Local\\Temp\\cc0eomTS.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-liconv] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [--sysroot=C:/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_8e5b3.exe] ==> ignore
+          arg [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+          arg [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> obj [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
+          arg [-LC:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0] ==> dir [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0]
+          arg [-LC:/Environment/mingw64/bin/../lib/gcc] ==> dir [C:/Environment/mingw64/bin/../lib/gcc]
+          arg [-LC:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LC:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib] ==> dir [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib]
+          arg [-LC:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LC:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..] ==> dir [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..]
+          arg [-v] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_8e5b3.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_8e5b3.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-liconv] ==> lib [iconv]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o] ==> obj [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        linker tool for 'C': ../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=win32 --enable-libstdcxx-threads=yes --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-win32-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https:/github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/ld.exe
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        collapse obj [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [C:/Environment/mingw64/x86_64-w64-mingw32/lib/crt2.o]
+        collapse obj [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> [C:/Environment/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
+        collapse obj [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o] ==> [C:/Environment/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        collapse library dir [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0] ==> [C:/Environment/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0]
+        collapse library dir [C:/Environment/mingw64/bin/../lib/gcc] ==> [C:/Environment/mingw64/lib/gcc]
+        collapse library dir [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/Environment/mingw64/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib] ==> [C:/Environment/mingw64/lib]
+        collapse library dir [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/Environment/mingw64/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..] ==> [C:/Environment/mingw64/lib]
+        implicit libs: [mingw32;gcc;mingwex;kernel32;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc;mingwex;kernel32]
+        implicit objs: [C:/Environment/mingw64/x86_64-w64-mingw32/lib/crt2.o;C:/Environment/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o;C:/Environment/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        implicit dirs: [C:/Environment/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0;C:/Environment/mingw64/lib/gcc;C:/Environment/mingw64/x86_64-w64-mingw32/lib;C:/Environment/mingw64/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Running the C compiler's linker: "../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=win32 --enable-libstdcxx-threads=yes --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-win32-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https:/github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/ld.exe" "-v"
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Running the C compiler's linker: "../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=win32 --enable-libstdcxx-threads=yes --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-win32-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https:/github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/ld.exe" "-V"
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Running the C compiler's linker: "../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=win32 --enable-libstdcxx-threads=yes --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-win32-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https:/github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/ld.exe" "--version"
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/Code/cmake_planning1/build/CMakeFiles/CMakeScratch/TryCompile-x8bgpk"
+      binary: "D:/Code/cmake_planning1/build/CMakeFiles/CMakeScratch/TryCompile-x8bgpk"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Code/cmake_planning1/build/CMakeFiles/CMakeScratch/TryCompile-x8bgpk'
+        
+        Run Build Command(s): "D:/Code tool/cmake/bin/cmake.exe" -E env VERBOSE=1 C:/Environment/mingw64/bin/mingw32-make.exe -f Makefile cmTC_4692d/fast
+        C:/Environment/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_4692d.dir\\build.make CMakeFiles/cmTC_4692d.dir/build
+        mingw32-make[1]: Entering directory 'D:/Code/cmake_planning1/build/CMakeFiles/CMakeScratch/TryCompile-x8bgpk'
+        Building CXX object CMakeFiles/cmTC_4692d.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\Environment\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_4692d.dir\\CMakeCXXCompilerABI.cpp.obj -c "D:\\Code tool\\cmake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+        Using built-in specs.
+        COLLECT_GCC=C:\\Environment\\mingw64\\bin\\g++.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../../../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=win32 --enable-libstdcxx-threads=yes --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-win32-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/ld.exe --with-boot-ldflags='-pipe -fno-ident -L/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib  -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc'
+        Thread model: win32
+        Supported LTO compression algorithms: zlib
+        gcc version 15.2.0 (x86_64-win32-seh-rev0, Built by MinGW-Builds project) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_4692d.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_4692d.dir\\'
+         C:/Environment/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -U_REENTRANT D:\\Code tool\\cmake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_4692d.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=core2 -march=nocona -version -o C:\\Users\\cyberluv\\AppData\\Local\\Temp\\ccXWV4Zf.s
+        GNU C++17 (x86_64-win32-seh-rev0, Built by MinGW-Builds project) version 15.2.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 15.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.27-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/Environment/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++"
+        ignoring duplicate directory "C:/Environment/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32"
+        ignoring duplicate directory "C:/Environment/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward"
+        ignoring duplicate directory "C:/Environment/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include"
+        ignoring nonexistent directory "C:/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64D:/a/_temp/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include"
+        ignoring duplicate directory "C:/Environment/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed"
+        ignoring duplicate directory "C:/Environment/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "C:/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++
+         C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32
+         C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward
+         C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include
+         C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed
+         C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: d36d25bbc8758db73b3fef2a044ea176
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_4692d.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_4692d.dir\\'
+         C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_4692d.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\cyberluv\\AppData\\Local\\Temp\\ccXWV4Zf.s
+        GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45
+        COMPILER_PATH=C:/Environment/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;C:/Environment/mingw64/bin/../libexec/gcc/;C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/Environment/mingw64/bin/../lib/gcc/;C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_4692d.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_4692d.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_4692d.exe
+        "D:\\Code tool\\cmake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_4692d.dir\\link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=C:\\Environment\\mingw64\\bin\\g++.exe
+        COLLECT_LTO_WRAPPER=C:/Environment/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../../../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=win32 --enable-libstdcxx-threads=yes --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-win32-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/ld.exe --with-boot-ldflags='-pipe -fno-ident -L/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib  -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc'
+        Thread model: win32
+        Supported LTO compression algorithms: zlib
+        gcc version 15.2.0 (x86_64-win32-seh-rev0, Built by MinGW-Builds project) 
+        COMPILER_PATH=C:/Environment/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;C:/Environment/mingw64/bin/../libexec/gcc/;C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/Environment/mingw64/bin/../lib/gcc/;C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4692d.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_4692d.'
+         C:/Environment/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/Environment/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/Environment/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\cyberluv\\AppData\\Local\\Temp\\ccxXC28u.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_4692d.exe C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/Environment/mingw64/bin/../lib/gcc -LC:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_4692d.dir/objects.a --no-whole-archive --out-implib libcmTC_4692d.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        collect2 version 15.2.0
+        C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/Environment/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/Environment/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\cyberluv\\AppData\\Local\\Temp\\ccxXC28u.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_4692d.exe C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/Environment/mingw64/bin/../lib/gcc -LC:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_4692d.dir/objects.a --no-whole-archive --out-implib libcmTC_4692d.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        GNU ld (GNU Binutils) 2.45
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4692d.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_4692d.'
+        "D:\\Code tool\\cmake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_4692d.dir/objects.a
+        C:\\Environment\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_4692d.dir/objects.a @CMakeFiles\\cmTC_4692d.dir\\objects1.rsp
+        C:\\Environment\\mingw64\\bin\\g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_4692d.dir/objects.a -Wl,--no-whole-archive -o cmTC_4692d.exe -Wl,--out-implib,libcmTC_4692d.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'D:/Code/cmake_planning1/build/CMakeFiles/CMakeScratch/TryCompile-x8bgpk'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++]
+          add: [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32]
+          add: [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward]
+          add: [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include]
+          add: [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+          add: [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++] ==> [C:/Environment/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++]
+        collapse include dir [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32] ==> [C:/Environment/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32]
+        collapse include dir [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward] ==> [C:/Environment/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward]
+        collapse include dir [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include] ==> [C:/Environment/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include]
+        collapse include dir [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed] ==> [C:/Environment/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+        collapse include dir [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include] ==> [C:/Environment/mingw64/x86_64-w64-mingw32/include]
+        implicit include dirs: [C:/Environment/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++;C:/Environment/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32;C:/Environment/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward;C:/Environment/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include;C:/Environment/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed;C:/Environment/mingw64/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'D:/Code/cmake_planning1/build/CMakeFiles/CMakeScratch/TryCompile-x8bgpk']
+        ignore line: []
+        ignore line: [Run Build Command(s): "D:/Code tool/cmake/bin/cmake.exe" -E env VERBOSE=1 C:/Environment/mingw64/bin/mingw32-make.exe -f Makefile cmTC_4692d/fast]
+        ignore line: [C:/Environment/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_4692d.dir\\build.make CMakeFiles/cmTC_4692d.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'D:/Code/cmake_planning1/build/CMakeFiles/CMakeScratch/TryCompile-x8bgpk']
+        ignore line: [Building CXX object CMakeFiles/cmTC_4692d.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\Environment\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_4692d.dir\\CMakeCXXCompilerABI.cpp.obj -c "D:\\Code tool\\cmake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\Environment\\mingw64\\bin\\g++.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../../../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=win32 --enable-libstdcxx-threads=yes --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-win32-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/ld.exe --with-boot-ldflags='-pipe -fno-ident -L/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib  -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc']
+        ignore line: [Thread model: win32]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.2.0 (x86_64-win32-seh-rev0  Built by MinGW-Builds project) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_4692d.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_4692d.dir\\']
+        ignore line: [ C:/Environment/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -U_REENTRANT D:\\Code tool\\cmake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_4692d.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=core2 -march=nocona -version -o C:\\Users\\cyberluv\\AppData\\Local\\Temp\\ccXWV4Zf.s]
+        ignore line: [GNU C++17 (x86_64-win32-seh-rev0  Built by MinGW-Builds project) version 15.2.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "C:/Environment/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++"]
+        ignore line: [ignoring duplicate directory "C:/Environment/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32"]
+        ignore line: [ignoring duplicate directory "C:/Environment/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward"]
+        ignore line: [ignoring duplicate directory "C:/Environment/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include"]
+        ignore line: [ignoring nonexistent directory "C:/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64D:/a/_temp/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "C:/Environment/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "C:/Environment/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "C:/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++]
+        ignore line: [ C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32]
+        ignore line: [ C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward]
+        ignore line: [ C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include]
+        ignore line: [ C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+        ignore line: [ C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: d36d25bbc8758db73b3fef2a044ea176]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_4692d.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_4692d.dir\\']
+        ignore line: [ C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_4692d.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\cyberluv\\AppData\\Local\\Temp\\ccXWV4Zf.s]
+        ignore line: [GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45]
+        ignore line: [COMPILER_PATH=C:/Environment/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [C:/Environment/mingw64/bin/../libexec/gcc/]
+        ignore line: [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [C:/Environment/mingw64/bin/../lib/gcc/]
+        ignore line: [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
+        ignore line: [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_4692d.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_4692d.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_4692d.exe]
+        ignore line: ["D:\\Code tool\\cmake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_4692d.dir\\link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\Environment\\mingw64\\bin\\g++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/Environment/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../../../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=win32 --enable-libstdcxx-threads=yes --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-win32-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/ld.exe --with-boot-ldflags='-pipe -fno-ident -L/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib  -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc']
+        ignore line: [Thread model: win32]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.2.0 (x86_64-win32-seh-rev0  Built by MinGW-Builds project) ]
+        ignore line: [COMPILER_PATH=C:/Environment/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [C:/Environment/mingw64/bin/../libexec/gcc/]
+        ignore line: [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [C:/Environment/mingw64/bin/../lib/gcc/]
+        ignore line: [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
+        ignore line: [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4692d.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_4692d.']
+        link line: [ C:/Environment/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/Environment/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/Environment/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\cyberluv\\AppData\\Local\\Temp\\ccxXC28u.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_4692d.exe C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/Environment/mingw64/bin/../lib/gcc -LC:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_4692d.dir/objects.a --no-whole-archive --out-implib libcmTC_4692d.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+          arg [C:/Environment/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [C:/Environment/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=C:/Environment/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\cyberluv\\AppData\\Local\\Temp\\ccxXC28u.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-liconv] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [--sysroot=C:/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_4692d.exe] ==> ignore
+          arg [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+          arg [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> obj [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
+          arg [-LC:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0] ==> dir [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0]
+          arg [-LC:/Environment/mingw64/bin/../lib/gcc] ==> dir [C:/Environment/mingw64/bin/../lib/gcc]
+          arg [-LC:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LC:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib] ==> dir [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib]
+          arg [-LC:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LC:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..] ==> dir [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..]
+          arg [-v] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_4692d.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_4692d.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-liconv] ==> lib [iconv]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o] ==> obj [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        linker tool for 'CXX': ../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=win32 --enable-libstdcxx-threads=yes --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-win32-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https:/github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/ld.exe
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [C:/Environment/mingw64/x86_64-w64-mingw32/lib/crt2.o]
+        collapse obj [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> [C:/Environment/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
+        collapse obj [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o] ==> [C:/Environment/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        collapse library dir [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0] ==> [C:/Environment/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0]
+        collapse library dir [C:/Environment/mingw64/bin/../lib/gcc] ==> [C:/Environment/mingw64/lib/gcc]
+        collapse library dir [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/Environment/mingw64/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib] ==> [C:/Environment/mingw64/lib]
+        collapse library dir [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/Environment/mingw64/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..] ==> [C:/Environment/mingw64/lib]
+        implicit libs: [stdc++;mingw32;gcc_s;gcc;mingwex;kernel32;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc_s;gcc;mingwex;kernel32]
+        implicit objs: [C:/Environment/mingw64/x86_64-w64-mingw32/lib/crt2.o;C:/Environment/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o;C:/Environment/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        implicit dirs: [C:/Environment/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0;C:/Environment/mingw64/lib/gcc;C:/Environment/mingw64/x86_64-w64-mingw32/lib;C:/Environment/mingw64/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Running the CXX compiler's linker: "../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=win32 --enable-libstdcxx-threads=yes --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-win32-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https:/github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/ld.exe" "-v"
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Running the CXX compiler's linker: "../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=win32 --enable-libstdcxx-threads=yes --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-win32-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https:/github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/ld.exe" "-V"
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/Code tool/cmake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Running the CXX compiler's linker: "../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=win32 --enable-libstdcxx-threads=yes --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-win32-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https:/github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/ld.exe" "--version"
+      
+...
